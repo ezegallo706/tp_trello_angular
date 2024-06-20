@@ -1,0 +1,14 @@
+
+ul li button svg path{
+    fill: #363636;
+    /* background-color: blue; */
+}
+ul li button svg path{
+    stroke: #363636;
+    /* background-color: blue; */
+}
+
+ul li > button:hover{
+    /* color: red; */
+    background-color: #cacaca;
+}

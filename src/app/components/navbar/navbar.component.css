@@ -1,0 +1,12 @@
+nav ul li a {
+    /* color: red; */
+    color: #44546F;
+}
+nav ul li:hover a, nav ul button:hover {
+    /* color: red; */
+    background-color: #d4d4d4;
+}
+
+.custom-rounded{
+    border-radius: 4px;
+}
