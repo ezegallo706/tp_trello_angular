@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NavbarComponent } from '../../components/navbar/navbar.component';
 import { SpacePickerComponent } from '../../components/space-picker/space-picker.component';
@@ -12,7 +12,15 @@ import { HomeComponent } from '../../views/home/home.component';
   templateUrl: './main-layout.component.html',
   styles: ``,
 })
-export class MainLayoutComponent {
+export class MainLayoutComponent implements OnInit {
   seRenderiza: boolean = false;
   numero: number = 58
+
+  ngOnInit(): void {
+    if (sessionStorage.getItem("storedCount") === null) {
+      //do something
+    }
+
+  }
+
 }
